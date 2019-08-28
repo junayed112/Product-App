@@ -122,7 +122,7 @@ table {
 }
 
 .contact100-form-btn {
-  width: 100%;
+  width: 10%;
   height: 50px;
   border-radius: 25px;
   background: #846add;
@@ -138,6 +138,8 @@ table {
   justify-content: center;
   align-items: center;
   padding: 0 25px;
+  margin-left: auto;
+  margin-right: auto;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -443,6 +445,8 @@ Product">Product</h1>
 			<th>Name</th>
 			<th>Description</th>
 			<th>Cost</th>
+      <th>Update</th>
+      <th>Delete</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -450,26 +454,47 @@ Product">Product</h1>
 			<td>S10</td>
 			<td>SmartPhone</td>
 			<td>56000</td>
+      <td><form>
+<input class="contact100-form-btn" type="button" value="U" onclick="window.location.href='updt.html'" />
+</form> </td>
+      <td><form>
+<input class="contact100-form-btn" type="button" value="D"/>
+</form> </td>
 		</tr>
 		<tr>
 			<td>5D Canon</td>
 			<td>Camera</td>
 			<td>200000</td>
+      <td><form>
+<input class="contact100-form-btn" type="button" value="U" onclick="window.location.href='updt.html'" />
+</form> </td>
+      <td><form>
+<input class="contact100-form-btn" type="button" value="D"/>
+</form> </td>
+
 		</tr>
 		<tr>
 			<td>HP</td>
 			<td>Laptop</td>
 			<td>50000</td>
+      <td><form>
+<input class="contact100-form-btn" type="button" value="U" onclick="window.location.href='updt.html'" />
+</form> </td>
+      <td><form>
+<input class="contact100-form-btn" type="button" value="D"/>
+</form> </td>
+
 		</tr>
 		</tr>
 	</tbody>
 </table>
 <br> <br> <br>
-<div class="container-contact100-form-btn">
-						<button class="contact100-form-btn">
-							Insert
-						</button>
-					</div>
+
+<form>
+<input class="contact100-form-btn" type="button" value="Insert" onclick="window.location.href='updt.html'" />
+</form> 
+
+
 <br><br>
 </body>
 </html>
